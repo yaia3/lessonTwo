@@ -17,6 +17,7 @@ public class FirstTest {
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd.MM.yyyy");
         LocalDate localDate = LocalDate.parse(date, formatter);
 
-        assertEquals(DayOfWeek.SATURDAY, localDate.getDayOfWeek());
+        assertEquals(DayOfWeek.SATURDAY, localDate.getDayOfWeek());//test
+
     }
 }
